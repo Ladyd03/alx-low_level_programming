@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description: prints all possible different combinations of three digits
- * Return: 0 (Success)
- */
+* main - Entry point
+* Description: prints all possible different combinations of three digits
+* Return: 0 (Success)
+*/
 int main(void)
 {
 	int n, m, l;
@@ -24,13 +24,11 @@ int main(void)
 					{
 						putchar(',');
 						putchar(' ');
-				
 					}
 				}
 			}
 		}
-	}	
+	}
 	putchar('\n');
 	return (0);
 }
-
