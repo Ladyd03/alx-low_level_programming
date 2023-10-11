@@ -3,12 +3,12 @@
 
 
 	/**
-	 * struct dog - contains dog's basic info
+	 * struct dog - contains dog's basic information
 	 * @name: 1st member
 	 * @age: 2nd member
 	 * @owner: 3rd member
 	 *
-	 * Description: Longer description
+	 * Description: detailed description
 	 */
 
 
@@ -27,11 +27,10 @@
 
 
 	void init_dog(struct dog *d, char *name, float age, char *owner);
-	void print_dog(struct dog *d);
 	dog_t *new_dog(char *name, float age, char *owner);
+	void print_dog(struct dog *d);
 	void free_dog(dog_t *d);
-	char *_strcpy(char *dest, char *src);
 	int _strlen(char *s);
-
+	char *_strcpy(char *dest, char *src);
 
 	#endif
